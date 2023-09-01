@@ -1,0 +1,15 @@
+/* Footer*/
+.nombres {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    background-color: bisque;
+    margin: 0px;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+}
+.nombre1 {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
