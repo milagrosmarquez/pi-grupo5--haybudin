@@ -1,3 +1,4 @@
+
 /* Footer*/
 .nombres {
     display: flex;
@@ -13,3 +14,34 @@
     margin: 20px;
     align-items: center;
 }
+
+/** HEADER**/
+
+header {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 100%;
+}
+.item-header {
+    margin: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+.búsqueda {
+    width: 100%;
+}
+
+
