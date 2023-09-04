@@ -18,6 +18,7 @@
 /** HEADER**/
 
 header {
+    font-family: 'Raleway', sans-serif;
     background-color: pink;
     display: flex;
     flex-direction: row;
@@ -45,3 +46,9 @@ nav {
 }
 
 
+
+/**MEDIA**/
+@media(max-width:420px){
+
+
+}
