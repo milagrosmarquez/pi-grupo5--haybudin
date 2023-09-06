@@ -1,4 +1,6 @@
 
+/**ESTO ES INDEX HTML**/
+
 /* Footer*/
 .nombres {
     display: flex;
@@ -45,6 +47,57 @@ nav {
     width: 100%;
 }
 
+
+/*ESTO ES FAVORITOS HTML**/
+
+.listafavoritos {
+display: flex;
+flex-direction: column;
+
+}
+
+.fav1{
+background-image:url() ;
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position: 
+}
+
+.fav2{
+    background-image:url();
+width: 190px;
+height: 190px;
+}
+
+.fav3{
+    background-image:url();
+width: 190px;
+height: 190px;
+}
+
+.fav4{
+    background-image:url();
+width: 190px;
+height: 190px;
+}
+.fav5{
+    background-image:url();
+width: 190px;
+height: 190px;
+}
+
+.fav6{
+    background-image:url();
+width: 190px;
+height: 190px;
+}
+
+.fav7{
+    background-image:url();
+width: 190px;
+height: 190px;
+}
 
 
 /**MEDIA**/
