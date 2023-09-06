@@ -45,7 +45,28 @@ nav {
     width: 100%;
 }
 
+/**ESTO ES PELICULAS HTML**/
+.listadepeliculas {
+    display: flex;
+    flex-direction: column;
 
+}
+.aladdin {
+background-image: url(./img/aladdin.jfif);
+height: 300px;
+width: 200px;
+background-size: cover;
+background-position: 100% 100%;
+
+}
+.listaladdin {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
 
 /**MEDIA**/
 @media(max-width:420px){
