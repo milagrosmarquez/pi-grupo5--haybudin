@@ -52,7 +52,6 @@ nav {
     display: flex;
     flex-direction: column;
 
-<<<<<<< HEAD
 }
 .aladdin {
 background-image: url(./img/aladdin.jfif);
@@ -121,7 +120,7 @@ width: 190px;
 height: 190px;
 }
 
->>>>>>> 49ede6e51d8942edf0ddd2f7ae3b4c7c1535e488
+
 
 /**MEDIA**/
 @media(max-width:420px){
