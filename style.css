@@ -81,15 +81,20 @@ height: 300px;
 width: 200px;
 background-size: cover;
 background-position: 100% 100%;
-
+display: flex;
 }
 .listaflor {
 list-style-type: none;
 display: flex;
-flex-direction: row;
-justify-content: space-around;
-
-
+flex-direction: column;
+justify-content: space-evenly;
+}
+.papa {
+    display: flex;
+}
+.parrafo {
+    display: flex;
+    width: 500px;
 }
 /*ESTO ES FAVORITOS HTML**/
 
