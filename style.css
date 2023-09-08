@@ -69,7 +69,28 @@ justify-content: space-around;
 
 
 }
-=======
+/**ESTO ES SERIES HTML**/
+.listadeseries {
+    display: flex;
+    flex-direction: column;
+
+}
+.floricienta {
+background-image: url(../pi-grupo5--haybudin/img/Floricienta.webp);
+height: 300px;
+width: 200px;
+background-size: cover;
+background-position: 100% 100%;
+
+}
+.listaflor {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
 /*ESTO ES FAVORITOS HTML**/
 
 .listafavoritos {
