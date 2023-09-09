@@ -78,7 +78,7 @@ justify-content: space-evenly;
 
 }
 .floricienta {
-background-image: url(../pi-grupo5--haybudin/img/Floricienta.webp);
+background-image: url(./img/floricienta.jfif);
 height: 300px;
 width: 200px;
 background-size: cover;
@@ -153,7 +153,7 @@ height: 190px;
     display: flex;
     height: 267px;
  }
- .seriep {
+ .serie {
 display: flex;
 height: 267px;
  }
