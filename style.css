@@ -61,6 +61,7 @@ background-size: cover;
 background-position: 100% 100%;
 display: flex;
 
+
 }
 .listaladdin {
 list-style-type: none;
@@ -146,6 +147,25 @@ height: 190px;
 width: 190px;
 height: 190px;
 }
+
+/* main index */
+ .pelis {
+    display: flex;
+    height: 267px;
+ }
+ .seriep {
+display: flex;
+height: 267px;
+ }
+ .popu {
+display: flex;
+height: 267px;
+     }
+ .ima {
+display: flex;
+width: 180px;
+margin: 10px;
+ }
 
 
 
