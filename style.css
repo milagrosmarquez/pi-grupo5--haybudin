@@ -17,9 +17,7 @@ p{
     line-height: 25px;
 }
 
-.emoticon {
-    width: 50px;
-}
+
 
 
 
@@ -125,6 +123,7 @@ width: 200px;
 background-size: cover;
 background-position: 100% 100%;
 display: flex;
+margin-top: 10px;
 
 
 }
@@ -149,6 +148,7 @@ width: 200px;
 background-size: cover;
 background-position: 100% 100%;
 display: flex;
+margin-top: 10px;
 }
 .listaflor {
 list-style-type: none;
