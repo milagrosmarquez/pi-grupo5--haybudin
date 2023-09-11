@@ -188,7 +188,30 @@ background-color: rgb(244, 224, 201);
 
  }
 
+/**Esto es generO**/
 
+
+
+/**Esto es generoSS**/
+.tipos{
+    color: black;
+    font-size: medium;
+}
+.listgen{
+    list-style: none;
+    margin: 20px; 
+    background: linear-gradient(rgb(255, 253, 253), rgb(235, 235, 235), rgb(245, 245, 245));
+    border: 2px solid rgb(228, 228, 228);
+    padding: 2px 25px;
+    border-radius: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    width: 150px;
+}
+
+.listgen:hover{
+    transform: scale(1.6);
+}
 
 /**MEDIA**/
 @media(max-width:420px){
