@@ -150,7 +150,7 @@ margin: 10px;
 
 }
 .aladdin {
-background-image: url(./img/aladdin.jfif);
+background-image: url(../img/aladdin.jfif);
 height: 300px;
 width: 200px;
 background-size: cover;
@@ -175,7 +175,7 @@ justify-content: space-evenly;
 
 }
 .floricienta {
-background-image: url(./img/floricienta.jfif);
+background-image: url(../img/floricienta.jfif);
 height: 300px;
 width: 200px;
 background-size: cover;
