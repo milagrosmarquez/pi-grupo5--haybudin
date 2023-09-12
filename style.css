@@ -189,7 +189,13 @@ background-color: rgb(244, 224, 201);
  }
 
 /**Esto es generO**/
-
+.g{
+    display: flex;
+    flex-direction: row;
+    height: 267px;
+    margin: 10px;
+    width: 180px;
+}
 
 
 /**Esto es generoSS**/
