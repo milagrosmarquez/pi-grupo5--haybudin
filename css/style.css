@@ -1,6 +1,4 @@
 
-
-
 /**GENERAL**/
 h1 {
     font-family: 'Josefin Sans', sans-serif;
@@ -23,19 +21,17 @@ body{
      }
 
 
-<<<<<<< HEAD:style.css
 .añadirfav{
     background: linear-gradient(rgb(255, 253, 253), rgb(235, 235, 235), rgb(245, 245, 245));
     padding: 5px 25px;
     border-radius: 8px;
 }
+h2  {
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 .añadirfav:hover {
 transform: scale(1.2);
-=======
-h2{
-    font-family: 'Josefin Sans', sans-serif;
->>>>>>> 67421dfcdf9c58a9e7319679cab77cd14946ca4f:css/style.css
 }
 
 
