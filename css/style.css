@@ -165,8 +165,13 @@ list-style-type: none;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+}
 
-
+.trailer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 100px;
 }
 /**ESTO ES SERIES HTML**/
 .listadeseries {
@@ -195,6 +200,12 @@ justify-content: space-evenly;
 .parrafo {
     display: flex;
     width: 500px;
+}
+.floritrailer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 100px;
 }
 /*ESTO ES FAVORITOS HTML**/
 
