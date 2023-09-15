@@ -128,6 +128,7 @@ input {
 .pelis {
     display: flex;
     height: 267px;
+    justify-content: space-between;
  }
  .serie {
 display: flex;
@@ -251,11 +252,13 @@ height: 267px;
     transform: scale(1.6);
 }
 
+
+
 /**MEDIA**/
 @media(max-width:420px){
 
 
-/**HEADER**/
+/**HEADER MEDIA**/
 header {
 flex-wrap: wrap;
 display: flex;
@@ -272,6 +275,10 @@ ul.navbar {
     margin: 9px;
 }
 
+input {
+   width: 70%;
+}
+
 form {
 display: flex;
 justify-content: center;
@@ -283,11 +290,11 @@ flex-direction: row;
     height: 40px;
 }
 .logo{
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
 }
 
-/**FOOTER**/
+/**FOOTER MEDIA**/
 footer {
     flex-wrap: wrap;
     display: flex;
@@ -301,6 +308,9 @@ h1{
     font-size: medium;
 }
 
+.nombres {
+    padding: 0px;
+}
 /** MAIN INDEX **/
 
 .mainindex {
@@ -315,7 +325,19 @@ h1{
     align-items: center;
     flex-direction: column;
 }
-/**Media Pelicula**/
+
+.pelis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+.pelis img {
+    width: 100%;
+}
+
+/**MEDIA PELÍCULA**/
 .listaladdin{
     display: flex;
     flex-direction: column;
@@ -327,7 +349,7 @@ h1{
 .trailer{
     margin-left: 0px;
 }
-/**Media Serie**/
+/**MEDIA SERIE**/
 .floritrailer{
     margin-left: 0px;
 }
@@ -342,5 +364,14 @@ h1{
 .seriefavoritos{
     display:flex;   
     flex-direction: row;
+}
+
+/**GENEROS MEDIA**/
+.ul-listgen {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 }
