@@ -338,11 +338,11 @@ h1{
 }
 
 
-.pelis{
+.pelisD{
     display:flex;   
     flex-direction: row;
 }
-.serie{
+.serieD{
     display:flex;   
     flex-direction: row;
     
