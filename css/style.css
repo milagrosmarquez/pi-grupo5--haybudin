@@ -66,6 +66,7 @@ header {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    margin-top: 34px;
 }
 
 nav {
@@ -99,7 +100,7 @@ a {
 }
 
 input {
-    margin: 20px; 
+    margin: 53px; 
     background: linear-gradient(rgb(252, 161, 161), rgb(226, 104, 144), rgb(239, 59, 166));
     border: 2.5px solid rgb(0, 0, 0);
     padding: 10px 80px;
