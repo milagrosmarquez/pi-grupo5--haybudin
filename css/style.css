@@ -237,4 +237,50 @@ justify-content: space-evenly;
 @media(max-width:420px){
 
 
+/**HEADER**/
+header {
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+}
+
+ul.navbar { 
+    margin: 0px;
+    padding: 0px; 
+}
+
+.item-header {
+    align-items: center; 
+    margin: 9px;
+}
+
+form {
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.lupa{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+/**FOOTER**/
+footer {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+h1{
+    font-size: medium;
+}
+
+.nombre1{
+    font-size: medium;
+}
+
 }
