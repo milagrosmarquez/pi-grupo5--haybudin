@@ -9,11 +9,11 @@ li {
 }
 
 p{
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: rgba(148, 139, 139, 0);
     text-align: justify;
     line-height: 25px;
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(231, 147, 190, 0.244);
 }
 body{
     background-color: rgb(226 104 144);
@@ -165,8 +165,13 @@ list-style-type: none;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+}
 
-
+.trailer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 100px;
 }
 /**ESTO ES SERIES HTML**/
 .listadeseries {
@@ -195,6 +200,12 @@ justify-content: space-evenly;
 .parrafo {
     display: flex;
     width: 500px;
+}
+.floritrailer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 100px;
 }
 /*ESTO ES FAVORITOS HTML**/
 
@@ -297,5 +308,32 @@ h1{
     align-items: center;
     flex-direction: column;
 }
+/**Media Pelicula**/
+.listaladdin{
+    display: flex;
+    flex-direction: column;
+}
+.papa{
+    display: flex;
+    flex-direction: column;
+}
+.trailer{
+    margin-left: 0px;
+}
+/**Media Serie**/
+.floritrailer{
+    margin-left: 0px;
+}
+.listaflor{
+    margin-left: 0px;
+}
 
+.pelis{
+    display:flex;   
+    flex-direction: row;
+}
+.serie{
+    display:flex;   
+    flex-direction: row;
+}
 }
