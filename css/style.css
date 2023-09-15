@@ -338,4 +338,16 @@ h1{
 }
 
 
+.pelis{
+    display:flex;   
+    flex-direction: row;
+}
+.serie{
+    display:flex;   
+    flex-direction: row;
+    
+
+
+
+}
 }
