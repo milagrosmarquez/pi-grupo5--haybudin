@@ -9,11 +9,11 @@ li {
 }
 
 p{
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: rgba(148, 139, 139, 0);
     text-align: justify;
     line-height: 25px;
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(231, 147, 190, 0.244);
 }
 body{
     background-color: rgb(226 104 144);
