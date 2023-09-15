@@ -318,4 +318,16 @@ h1{
     align-items: center;
 }
 
+.pelis{
+    display:flex;   
+    flex-direction: row;
+}
+.serie{
+    display:flex;   
+    flex-direction: row;
+    
+
+
+
+}
 }
