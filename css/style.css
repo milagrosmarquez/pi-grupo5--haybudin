@@ -209,7 +209,14 @@ justify-content: space-evenly;
 }
 /*ESTO ES FAVORITOS HTML**/
 
-
+.pelisfavoritos {
+    display: flex;
+    height: 267px;
+ }
+ .seriefavoritos {
+display: flex;
+height: 267px;
+ }
 
 /**Esto es generO**/
 .g{
@@ -328,11 +335,11 @@ h1{
     margin-left: 0px;
 }
 
-.pelis{
+.pelisfavoritos{
     display:flex;   
     flex-direction: row;
 }
-.serie{
+.seriefavoritos{
     display:flex;   
     flex-direction: row;
 }
