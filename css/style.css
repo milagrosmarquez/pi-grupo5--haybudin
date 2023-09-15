@@ -283,4 +283,28 @@ h1{
     font-size: medium;
 }
 
+/** MAIN **/
+.pelis{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ima{
+    height: 80%;
+    width: 80%;
+}
+.serie{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 }
