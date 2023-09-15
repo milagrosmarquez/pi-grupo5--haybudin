@@ -101,7 +101,7 @@ a {
 input {
     margin: 20px; 
     background: linear-gradient(rgb(252, 161, 161), rgb(226, 104, 144), rgb(239, 59, 166));
-    border: 3px solid rgb(0, 0, 0);
+    border: 2.5px solid rgb(0, 0, 0);
     padding: 10px 80px;
     border-radius: 90px;
 }
@@ -137,7 +137,7 @@ height: 267px;
 display: flex;
 height: 267px;
      }
- .ima {
+.ima {
 display: flex;
 width: 180px;
 margin: 10px;
@@ -283,28 +283,19 @@ h1{
     font-size: medium;
 }
 
-/** MAIN **/
-.pelis{ 
-    display:flex;
-    flex-direction: column;
+/** MAIN INDEX **/
+
+.mainindex {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.ima{
-    height: 80%;
-    width: 80%;
-}
-.serie{
-    display:flex;
     flex-direction: column;
+}
+.indexpelis {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.popu{
-    display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 }
