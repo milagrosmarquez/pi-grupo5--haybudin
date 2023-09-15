@@ -317,5 +317,25 @@ h1{
     justify-content: center;
     align-items: center;
 }
+/**Media Pelicula**/
+.listaladdin{
+    display: flex;
+    flex-direction: column;
+}
+.papa{
+    display: flex;
+    flex-direction: column;
+}
+.trailer{
+    margin-left: 0px;
+}
+/**Media Serie**/
+.floritrailer{
+    margin-left: 0px;
+}
+.listaflor{
+    margin-left: 0px;
+}
+
 
 }
