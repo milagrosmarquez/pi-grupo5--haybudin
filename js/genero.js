@@ -36,11 +36,11 @@ fetch(urlDetalleSeries)
     let contenido = ""
 
     console.log(miData);
-    for (let i = 0; i < 7; i++) {
-        contenido += `<a class="ima" href="./peliculas.html?id=${miData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" alt="Jefe en pañales"></a>`
-        
+    for (let i = 0; i < 4; i++) {
+        contenido +=  ` <a class="ima" href="./series.html?id=${miData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" alt="un show mas"></a>
+        `
     }
-    generoSerieslJS.innerHTML = contenido;
+    generoSeriesJS.innerHTML = contenido;
 })
 .catch(function (error) {
     console.log(error);
