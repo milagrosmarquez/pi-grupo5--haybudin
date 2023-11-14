@@ -24,7 +24,7 @@ fetch(url)
 
   let generos = "";
   for (let index = 0; index < data.genres.length; index++) {
-    generos += `<a href="./genero.html!id=${data.genres[index].id}">${data.genres[index].name}</a>`
+    generos += `<a href="./genero.html!id=${data.genres[index].id}>${data.genres[index].name}</a>`
 }
 
     listaflor.innerHTML =` <h1>${data.name}</h1>
