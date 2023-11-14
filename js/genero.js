@@ -40,7 +40,7 @@ fetch(urlDetalleSeries)
         contenido += `<a class="ima" href="./peliculas.html?id=${miData[i].id}"><img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" alt="Jefe en pañales"></a>`
         
     }
-    generoSeriesJS.innerHTML = contenido;
+    generoSerieslJS.innerHTML = contenido;
 })
 .catch(function (error) {
     console.log(error);
