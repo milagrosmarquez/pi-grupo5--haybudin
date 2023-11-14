@@ -9,6 +9,7 @@ let acaValaAPIkey = "e55171de8d3da1084e5f5aa7654d69f7";
 let url = `https://api.themoviedb.org/3/tv/${id_serie}?api_key=${acaValaAPIkey}`
 let imagenSeries = document.querySelector(".floricienta");
 let listaflor = document.querySelector(".listaflor");
+let parrafo = document.querySelector(".parrafo")
 
 fetch(url)
 .then(function(res){
@@ -26,12 +27,14 @@ fetch(url)
     generos += `<a href="./genero.html!id=${data.genres[index].id}">${data.genres[index].name}</a>`
 }
 
-    listaflor.innerHTML =` <h1>Floricienta</h1>
+    listaflor.innerHTML =` <h1>${data.name}</h1>
                                 <li> ★★★★★</li>
                                 <li>${data.last_air_date}</li>
                                 <li>${data.number_of_seasons} temporadas</li>
                                 <li>${generos}</li>
                                 <li><button class="añadirfav">Agregar a favoritos</button></li>`
+
+    parrafo.innerHTML  =   `<p class="parrafo">${data.overview}</p>`
 })
 .catch(function(err){
     console.log(err);
