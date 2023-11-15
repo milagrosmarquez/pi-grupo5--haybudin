@@ -14,12 +14,13 @@ fetch(url)
     return res.json();
 })
 .then(function(data){
-   
+
     console.log(data);
+    
     let contenido = "";
 let imagena = data.poster_path;
 imagenPeliculas.style.backgroundImage = `URL(https://image.tmdb.org/t/p/w500/${imagena})`
-let generos = " ";
+
  /* for (let i = 0; i < data.genres.length; i++) {
     generos +=` <a href = "./genero.html?id=${data.genres[i].id}">${data.genres[i].name}</a>
     `
