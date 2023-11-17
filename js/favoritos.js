@@ -1,5 +1,6 @@
 let acaValaAPIkey = "e55171de8d3da1084e5f5aa7654d69f7";
 let url = `https://api.themoviedb.org/3/tv/${id_serie}?api_key=${acaValaAPIkey}`
+let url2 = `https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${acaValaAPIkey}`
 
 let pelifavorito =  document.querySelector(".pelisfavoritos")
 let seriefavorito =  document.querySelector(".seriefavoritos")
@@ -10,7 +11,7 @@ fetch(url)
 })
 .then(function(data){
     console.log(data)
-
+    
       pelifavorito.innerHTML =  ` <div class="pelisfavoritos">
         <a class="ima" href="./peliculas.html"><img src="./img/aladdin.jfif" alt="Aladdin"></a>
         <a class="ima" href="./peliculas.html"><img src="./img/mivillano.jfif" alt="Mi villano favorito"></a>

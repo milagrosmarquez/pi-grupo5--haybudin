@@ -177,12 +177,6 @@ flex-direction: column;
 justify-content: space-evenly;
 }
 
-.trailer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 250px;
-    margin-top: 100px;
-}
 /**ESTO ES SERIES HTML**/
 .listadeseries {
     display: flex;
@@ -210,13 +204,6 @@ justify-content: space-evenly;
     display: flex;
     width: 500px;
 }
-.floritrailer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 250px;
-    margin-top: 100px;
-}
-
 
 
 /*ESTO ES FAVORITOS HTML**/

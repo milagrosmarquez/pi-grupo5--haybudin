@@ -40,6 +40,21 @@ fetch(url)
     console.log(err);
 })
 
+let botonfavoritos = document.querySelector("")
+
+favvv.addEventListener("click",function(e){
+    
+    if (fav.innerText == 'modo oscuro') {
+        /pasarlo a oscuro/
+        body.style.backgroundColor = "#09174e";
+        darkMode.innerText = 'Modo Claro'
+    } else {
+        /pasarlo a claro/
+        body.style.backgroundColor = '#f7f8fc';
+        darkMode.innerText = 'Modo Oscuro'
+    }
+})
+
 
 
 
