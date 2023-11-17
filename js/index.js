@@ -13,15 +13,14 @@ fetch(url)
     let contenido = "";
     for (let i = 0; i < 5; i++) {
        console.log(miData[i]);
-       contenido += ` 
-            
-                <a class="ima" href="./peliculas.html?id=${miData[i].id}">
-                <img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}"></a>
-                <ul class = "tyf">
-                    <li>${miData[i].title}</li>
-                    <li> Fecha de estreno:${miData[i].release_date}</li>
-                </ul>
-        `   
+       contenido += `<article class="articlePost">
+                                <a class="ima" href="./peliculas.html?id=${miData[i].id}">
+                                <img src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}"></a>
+                                <ul class = "tyf">
+                                    <li>${miData[i].title}</li>
+                                    <li> Fecha de estreno:${miData[i].release_date}</li>
+                                </ul>
+                        </article>`   
     }
     peliculasIn.innerHTML = contenido
 })
@@ -45,12 +44,14 @@ fetch(urlSeries)
     for (let i = 0; i < 5; i++) {
        console.log(miData[i]);
        contenido +=  ` 
+                        <article class="articlePost">
                         <a class="ima" href="./series.html?id=${miData[i].id}">
                         <img  src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path} "></a>
                         <ul class = "tyf">
                             <li>${miData[i].original_name}</li>
                             <li> Fecha de estreno:${miData[i].first_air_date}</li>
                         </ul>
+                        </article>
                     `
        
     }
@@ -76,12 +77,14 @@ fetch(urlPopulares)
     for (let i = 0; i < 5; i++) {
        console.log(miData[i]);
        contenido +=  `
+                            <article class="articlePost">
                             <a class="ima" href="./series.html?id=${miData[i].id}">
                             <img  src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}"></a>
                             <ul class = "tyf">
                                 <li>${miData[i].original_title}</li>
                                 <li> Fecha de estreno:${miData[i].release_date}</li>
                             </ul>
+                            </article>
                     `          
     }
     popularesIn.innerHTML = contenido

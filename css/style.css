@@ -44,7 +44,7 @@ transform: scale(1.2);
     background: linear-gradient(rgb(252, 161, 161), rgb(226, 104, 144), rgb(239, 59, 166));
     display: flex;
     font-family: 'Raleway', sans-serif;
-    margin: 0px;
+    margin-top: 10px;
     height: 100px;
     justify-content: center;
     width: 100%;
@@ -128,10 +128,20 @@ input {
     display: flex; 
 }
 
-
-
 .ima:hover {
     transform: scale(1.3);   
+}
+
+.articlePost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.articlePost img{
+    width: 150px;
 }
 .pelis {
     display: flex;
@@ -150,6 +160,7 @@ a.ima {
 display: flex;
 width: 180px;
 margin: 10px;
+justify-content: center;
  }
 
 
