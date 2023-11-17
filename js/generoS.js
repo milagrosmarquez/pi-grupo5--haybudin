@@ -6,7 +6,7 @@ let urlSeries = `https://api.themoviedb.org/3/genre/tv/list?api_key=${acaVaLaAPI
 let generosPelis = document.querySelector("#generosPelis");
 let generosSeries = document.querySelector("#generosSeries");
 
-/* Fetch de Generos de pelis */
+/* Fetch de Generos de pelis  ........... */
 fetch(urlPelis)
 .then(function (res) {
     return res.json();
