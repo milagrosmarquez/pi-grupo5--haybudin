@@ -8,6 +8,7 @@ let url=`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${bus
 let pelis = document.querySelector(".pelis")
 
 
+//test
 
 
 fetch(url)
