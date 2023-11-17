@@ -39,3 +39,30 @@ let generos = "";
 .catch(function(error){
     console.log(error);
 })
+
+/* boton ver recomendaciones */
+let boton = document.querySelector("#botonRecom");
+let urlRecom = `https://api.themoviedb.org/3/movie/${id_pelicula}/recommendations?api_key=${apiKey}`;
+
+boton.addEventListener("click", function(){
+
+    fetch(urlRecom)
+    .then(function (res) {
+        return res.json();
+    })
+    .then(function (data) {
+        let contenido = "";
+        let miData = data.results;
+        for (let i = 0; i < 3; i++) {
+            contenido += `<a href=""><img class="imgRecom" src="https://image.tmdb.org/t/p/w500/${miData[i].poster_path}" alt=""></a>`
+            
+            
+        }
+        listaRecom.innerHTML = contenido
+    })
+    .catch(function (error) {
+        console.log(error);
+    })
+    
+    
+})

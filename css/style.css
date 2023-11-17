@@ -263,6 +263,11 @@ height: 267px;
     transform: scale(1.6);
 }
 
+.imgRecom{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
 
 
 /**MEDIA**/
