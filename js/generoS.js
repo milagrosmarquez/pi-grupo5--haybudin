@@ -17,7 +17,7 @@ fetch(urlPelis)
 
     console.log(miDataPelis);
     for (let i = 0; i < 4; i++) {
-        contenido += `   <li class="listgen"> <a class="tipos" href="./genero.html?id=${miDataPelis[i].id}">${miDataPelis[i].name}</a></li>
+        contenido += `  <li class="listgen"> <a class="tipos" href="./genero.html?id=${miDataPelis[i].id}">${miDataPelis[i].name}</a></li>
         ` 
     }
     generosPelis.innerHTML = contenido;
@@ -37,9 +37,7 @@ fetch(urlSeries)
 
     console.log(miDataSeries);
     for (let i = 0; i < 4; i++) {
-        contenido += `               <li class="listgen"> <a class="tipos" href="./genero.html?id=${miDataSeries[i].id}">${miDataSeries[i].name}</a></li>
-
-        ` 
+        contenido += `  <li class="listgen"> <a class="tipos" href="./genero.html?id=${miDataSeries[i].id}">${miDataSeries[i].name}</a></li> ` 
     }
     generosSeries.innerHTML = contenido;
 })
