@@ -6,8 +6,10 @@ let id_pelicula = qsObj.get("id");
 
 let url = `https://api.themoviedb.org/3/movie/${id_pelicula}?api_key=${apiKey}`
 let imagenPeliculas = document.querySelector(".aladdin");
-let listaladdin = document.querySelector(".listaladdin");
 let parrafo = document.querySelector(".parrafo")
+let nombre = document.querySelector("#nombre")
+let fecha = document.querySelector("#fecha")
+let duracion = document.querySelector("#duracion")
 
 fetch(url)
 .then(function(res){
@@ -23,17 +25,15 @@ imagenPeliculas.style.backgroundImage = `URL(https://image.tmdb.org/t/p/w500/${i
 
 let generos = "";
   for (let index = 0; index < data.genres.length; index++) {
-     generos += `<a href="./genero.html!id=${data.genres[index].id}>${data.genres[index].name}</a>`
+    console.log(data.genres[index].name);
+     generos += `<a href="./genero.html!id=${data.genres[index].id}">${data.genres[index].name}</a>`
 }
 
- listaladdin.innerHTML = `
-        <h1>${data.title}</h1>
-           <li> ★★★★★ </li>
-           <li>${data.release_date}</li>
-           <li>${data.runtime} minutos</li>
-           <li>${generos}</li>
-           <li><button class="añadirfav">Agregar a favoritos</button></li>`
- parrafo.innerHTML  = `<p class="parrafo">${data.overview}</p>`
+nombre.innerHTML= `<h1 id="nombre">${data.title}</h1>`
+fecha.innerHTML= `<li id="fecha">${data.release_date}</li>`
+duracion.innerHTML= `<li id="duracion">${data.runtime} minutos</li>`
+gene.innerHTML= `<li id="gene">${generos}</li>`
+parrafo.innerHTML  = `<p class="parrafo">${data.overview}</p> `
 
 })
 .catch(function(error){
