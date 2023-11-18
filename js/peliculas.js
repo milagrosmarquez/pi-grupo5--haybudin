@@ -10,6 +10,7 @@ let parrafo = document.querySelector(".parrafo")
 let nombre = document.querySelector("#nombre")
 let fecha = document.querySelector("#fecha")
 let duracion = document.querySelector("#duracion")
+let ratingp = document.querySelector("#ratingp")
 
 fetch(url)
 .then(function(res){
@@ -30,6 +31,7 @@ let generos = "";
 }
 
 nombre.innerHTML= `<h1 id="nombre">${data.title}</h1>`
+ratingp.innerHTML= `<li id="ratingp">Rating: ${data.popularity}</li>`
 fecha.innerHTML= `<li id="fecha">${data.release_date}</li>`
 duracion.innerHTML= `<li id="duracion">${data.runtime} minutos</li>`
 gene.innerHTML= `<li id="gene">${generos}</li>`

@@ -8,6 +8,10 @@ let url = `https://api.themoviedb.org/3/tv/${id_serie}?api_key=${acaValaAPIkey}`
 let imagenSeries = document.querySelector(".floricienta");
 let listaflor = document.querySelector(".listaflor");
 let parrafo = document.querySelector(".parrafo")
+let nombreS = document.querySelector("#nombreS")
+let fechaS = document.querySelector("#fechaS")
+let duracionS = document.querySelector("#duracionS")
+let rating = document.querySelector("#rating")
 
 fetch(url)
 .then(function(res){
@@ -22,17 +26,16 @@ fetch(url)
 
   let generos = "";
   for (let index = 0; index < data.genres.length; index++) {
-    generos += `<a href="./genero.html!id=${data.genres[index].id}>${data.genres[index].name}</a>`
+    generos += `<a href="./genero.html!id=${data.genres[index].id}">${data.genres[index].name}</a>`
 }
 
-    listaflor.innerHTML =` <h1>${data.name}</h1>
-                                <li> ★★★★★</li>
-                                <li>${data.last_air_date}</li>
-                                <li>${data.number_of_seasons} temporadas</li>
-                                <li>${generos}</li>
-                                <li><button class="añadirfav">Agregar a favoritos</button></li>`
-
-    parrafo.innerHTML  =   `<p class="parrafo">${data.overview}</p>`
+   
+nombreS.innerHTML= `<h1 id="nombreS">${data.name}</h1>`
+rating.innerHTML= `<li id="fechaS">Rating: ${data.popularity} </li>`
+duracionS.innerHTML= `<li id="fechaS">${data.number_of_seasons} temporadas</li>`
+fechaS.innerHTML= `<li id="fechaS">${data.first_air_date} </li>`
+gens.innerHTML= `<li id="gens">${generos}</li>`
+parrafo.innerHTML  =   `<p class="parrafo">${data.overview}</p>`
 })
 .catch(function(err){
     console.log(err);
