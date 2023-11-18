@@ -31,8 +31,8 @@ fetch(url)
 
    
 nombreS.innerHTML= `<h1 id="nombreS">${data.name}</h1>`
-rating.innerHTML= `<li id="fechaS">Rating: ${data.popularity} </li>`
-duracionS.innerHTML= `<li id="fechaS">${data.number_of_seasons} temporadas</li>`
+rating.innerHTML= `<li id="rating">Rating: ${data.popularity} </li>`
+duracionS.innerHTML= `<li id="duracionS">${data.number_of_seasons} temporadas</li>`
 fechaS.innerHTML= `<li id="fechaS">${data.first_air_date} </li>`
 gens.innerHTML= `<li id="gens">${generos}</li>`
 parrafo.innerHTML  =   `<p class="parrafo">${data.overview}</p>`
