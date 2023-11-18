@@ -267,6 +267,10 @@ height: 267px;
     margin: 10px;
 }
 
+.genPeli{
+    margin-right: 20px;
+}
+
 
 /**MEDIA**/
 @media(max-width:420px){

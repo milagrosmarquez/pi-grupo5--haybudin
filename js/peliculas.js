@@ -27,7 +27,7 @@ imagenPeliculas.style.backgroundImage = `URL(https://image.tmdb.org/t/p/w500/${i
 let generos = "";
   for (let index = 0; index < data.genres.length; index++) {
     console.log(data.genres[index].name);
-     generos += `<a href="./genero.html!id=${data.genres[index].id}">${data.genres[index].name}</a>`
+     generos += `<a id="genPeli" href="./genero.html!id=${data.genres[index].id}">${data.genres[index].name}</a>`
 }
 
 nombre.innerHTML= `<h1 id="nombre">${data.title}</h1>`

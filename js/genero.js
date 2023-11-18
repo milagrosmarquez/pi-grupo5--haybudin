@@ -46,3 +46,28 @@ fetch(urlDetalleSeries)
     console.log(error);
 });
 
+
+/* Para que al apretar el boton del genero redericcione a las peliculas de ese genero */
+let qs = location.search;
+let qsObj = new URLSearchParams(qs);
+let generos = qsObj.get("generos");
+let urlGeneros = `https://api.themoviedb.org/3/genre/movie/list?language=en?api_key=${acaVaLaAPIKey}&query=${generos}`
+
+
+fetch(urlGeneros)
+.then(function (res) {
+    return res.json();
+})
+.then(function (data) {
+    let generos = "";
+  for (let index = 0; index < data.genres.length; index++) {
+    console.log(data.genres[index].name);
+     generos += ` <a class="ima" href="./series.html?id=${data.genres[index].id}"><img src="https://image.tmdb.org/t/p/w500/${data.genres[index].poster_path}" alt=""></a>`
+}
+generoJS.innerHTML = generos
+})
+.catch(function (error) {
+    console.log(error);
+})
+
+
